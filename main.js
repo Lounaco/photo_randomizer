@@ -9,4 +9,4 @@ playerLivesCount.textContent = playerLives;
 
 //generate the data
 
-[{imgSrc: './images/'}]
+[{imgSrc: '/images/2E68770A.jpg'}]
