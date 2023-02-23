@@ -26,6 +26,21 @@ const getData = () =>  [
     { imgSrc: "./images/F76773B3.jpg", name: "maple leaves" },
     { imgSrc: "./images/IMG_2225.JPG", name: "sunrise" },
     { imgSrc: "./images/IMG_6763.JPG", name: "trees" },
-]
+];
 
-const data = getData();
+//randomize
+const randomize = () => {
+    const cardData = getData();
+    cardData.sort( () => Math.random() -0.5);
+    return cardData;
+
+};
+
+//cards
+const cardGenerator = () => {
+    const cardData = randomize();
+    console.log(cardData);
+
+};
+
+cardGenerator();
