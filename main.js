@@ -12,7 +12,6 @@ const getData = () =>  [
     { imgSrc: "./images/95E36905.jpg", name: "maple leaf" },
     { imgSrc: "./images/99A0E241.jpg", name: "figs tree" },
     { imgSrc: "./images/196FE62C8.jpg", name: "rose" },
-    { imgSrc: "./images/4267708B.jpg", name: "green leaves" },
     { imgSrc: "./images/A687FC3A.jpg", name: "flower poppy" },
     { imgSrc: "./images/F76773B3.jpg", name: "maple leaves" },
     { imgSrc: "./images/IMG_2225.JPG", name: "sunrise" },
@@ -21,7 +20,6 @@ const getData = () =>  [
     { imgSrc: "./images/95E36905.jpg", name: "maple leaf" },
     { imgSrc: "./images/99A0E241.jpg", name: "figs tree" },
     { imgSrc: "./images/196FE62C8.jpg", name: "rose" },
-    { imgSrc: "./images/4267708B.jpg", name: "green leaves" },
     { imgSrc: "./images/A687FC3A.jpg", name: "flower poppy" },
     { imgSrc: "./images/F76773B3.jpg", name: "maple leaves" },
     { imgSrc: "./images/IMG_2225.JPG", name: "sunrise" },
@@ -39,7 +37,25 @@ const randomize = () => {
 //cards
 const cardGenerator = () => {
     const cardData = randomize();
-    console.log(cardData);
+
+//html generate
+    cardData.forEach((item) => {
+    const card = document.createElement("div");
+    const face = document.createElement("img");
+    const back = document.createElement("div");
+    card.classlist ="card";
+    face.classlist = "face";
+    back.classlist = "back";
+
+//info for cards
+    face.src = item.imgSrc;    
+
+//section for cards
+    section.appendChild(card);
+    card.appendChild(face);
+    card.appendChild(back);
+
+    });
 
 };
 
