@@ -14,16 +14,16 @@ const getData = () =>  [
     { imgSrc: "./images/196FE62C8.jpg", name: "rose" },
     { imgSrc: "./images/A687FC3A.jpg", name: "flower poppy" },
     { imgSrc: "./images/F76773B3.jpg", name: "maple leaves" },
-    { imgSrc: "./images/IMG_2225.JPG", name: "sunrise" },
-    { imgSrc: "./images/IMG_6763.JPG", name: "trees" },
+    { imgSrc: "./images/IMG_2225.jpg", name: "sunrise" },
+    { imgSrc: "./images/IMG_6763.jpg", name: "trees" },
     { imgSrc: "./images/7C2A0947.jpg", name: "dandelion" },
     { imgSrc: "./images/95E36905.jpg", name: "maple leaf" },
     { imgSrc: "./images/99A0E241.jpg", name: "figs tree" },
     { imgSrc: "./images/196FE62C8.jpg", name: "rose" },
     { imgSrc: "./images/A687FC3A.jpg", name: "flower poppy" },
     { imgSrc: "./images/F76773B3.jpg", name: "maple leaves" },
-    { imgSrc: "./images/IMG_2225.JPG", name: "sunrise" },
-    { imgSrc: "./images/IMG_6763.JPG", name: "trees" },
+    { imgSrc: "./images/IMG_2225.jpg", name: "sunrise" },
+    { imgSrc: "./images/IMG_6763.jpg", name: "trees" },
 ];
 
 //randomize
