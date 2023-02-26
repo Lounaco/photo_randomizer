@@ -1,5 +1,19 @@
+* {
+    margin: 0.3rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+  }
+
 body {
-    height: 30%;
-    width: 30%;
-    background: linear-gradient(-50deg, #E768AD, #C7F66F)
+    height: 90%;
+    width: 90%;
+    background: linear-gradient(-50deg, #E768AD, #C7F66F);
+    
 }
+section {
+    display: grid;
+    grid-template-columns: repeat(4, [col-start] 0.5fr [col-end]);
+    grid-template-rows: repeat(4, [col-start] 0.5fr [col-end]);
+    width: 100%;
+    grid-gap: 0.5rem;
+  }
