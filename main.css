@@ -1,9 +1,5 @@
-.body {
-height: 100%;
-width: 100%;
-background: radial-gradient(circle at top, skyblue, rgb(54, 88, 116));
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+body {
+    height: 30%;
+    width: 30%;
+    background: linear-gradient(-50deg, #E768AD, #C7F66F)
 }
