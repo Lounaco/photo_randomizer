@@ -1,16 +1,28 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
   }
 
 body {
     height: 90%;
     width: 90%;
-    background: linear-gradient(-50deg, #E768AD, #C7F66F);
+    background: linear-gradient(-50deg, #fffffc, #f0c0ff);
+    justify-content: center;
+    align-items: center;
     
 }
 section {
+    position: absolute;
+    margin: 2rem;
     display: grid;
-    grid-template-columns: repeat(4, [col-start] 1rem [col-end]);
-    grid-template-rows: repeat(4, [col-start] 1rem [col-end]);
-    width: 80%;
-  }
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
